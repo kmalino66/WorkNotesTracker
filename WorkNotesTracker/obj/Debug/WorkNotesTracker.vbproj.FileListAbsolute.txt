@@ -9,3 +9,7 @@ F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\ob
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.exe
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.pdb
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\Templates.mdf
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\Templates_log.ldf
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.NewTemplateDialogue.resources
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.DeleteConfirmDialogue.resources

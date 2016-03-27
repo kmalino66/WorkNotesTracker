@@ -26,11 +26,11 @@ Partial Class Form1
         Me.button_clear = New System.Windows.Forms.Button()
         Me.button_copy = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.TemplatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.comboBox_templates = New System.Windows.Forms.ToolStripComboBox()
+        Me.menuItem_loadTemplate = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuItem_delete = New System.Windows.Forms.ToolStripMenuItem()
+        Me.stripMenu_newTemplate = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,7 +40,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox1.BackColor = System.Drawing.SystemColors.Info
-        Me.TextBox1.Location = New System.Drawing.Point(12, 27)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 30)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -70,43 +70,42 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TemplatesToolStripMenuItem, Me.CopyToolStripMenuItem, Me.ClearToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.comboBox_templates, Me.menuItem_loadTemplate, Me.menuItem_delete, Me.stripMenu_newTemplate})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(892, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(892, 27)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'TemplatesToolStripMenuItem
+        'ToolStripMenuItem1
         '
-        Me.TemplatesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem, Me.OpenToolStripMenuItem})
-        Me.TemplatesToolStripMenuItem.Name = "TemplatesToolStripMenuItem"
-        Me.TemplatesToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
-        Me.TemplatesToolStripMenuItem.Text = "Templates"
+        Me.ToolStripMenuItem1.Enabled = False
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(71, 23)
+        Me.ToolStripMenuItem1.Text = "Template:"
         '
-        'SaveToolStripMenuItem
+        'comboBox_templates
         '
-        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SaveToolStripMenuItem.Text = "Save"
+        Me.comboBox_templates.Name = "comboBox_templates"
+        Me.comboBox_templates.Size = New System.Drawing.Size(121, 23)
         '
-        'OpenToolStripMenuItem
+        'menuItem_loadTemplate
         '
-        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.OpenToolStripMenuItem.Text = "Open"
+        Me.menuItem_loadTemplate.Name = "menuItem_loadTemplate"
+        Me.menuItem_loadTemplate.Size = New System.Drawing.Size(97, 23)
+        Me.menuItem_loadTemplate.Text = "Load Template"
         '
-        'CopyToolStripMenuItem
+        'menuItem_delete
         '
-        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
-        Me.CopyToolStripMenuItem.Text = "Copy"
+        Me.menuItem_delete.Name = "menuItem_delete"
+        Me.menuItem_delete.Size = New System.Drawing.Size(104, 23)
+        Me.menuItem_delete.Text = "Delete Template"
         '
-        'ClearToolStripMenuItem
+        'stripMenu_newTemplate
         '
-        Me.ClearToolStripMenuItem.Name = "ClearToolStripMenuItem"
-        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
-        Me.ClearToolStripMenuItem.Text = "Clear"
+        Me.stripMenu_newTemplate.Name = "stripMenu_newTemplate"
+        Me.stripMenu_newTemplate.Size = New System.Drawing.Size(122, 23)
+        Me.stripMenu_newTemplate.Text = "Save New Template"
         '
         'Form1
         '
@@ -131,9 +130,9 @@ Partial Class Form1
     Friend WithEvents button_clear As Button
     Friend WithEvents button_copy As Button
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents TemplatesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents OpenToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CopyToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ClearToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents comboBox_templates As ToolStripComboBox
+    Friend WithEvents stripMenu_newTemplate As ToolStripMenuItem
+    Friend WithEvents menuItem_loadTemplate As ToolStripMenuItem
+    Friend WithEvents menuItem_delete As ToolStripMenuItem
 End Class
