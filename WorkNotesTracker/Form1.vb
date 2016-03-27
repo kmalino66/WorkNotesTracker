@@ -58,19 +58,25 @@ Public Class Form1
     End Sub
 
     Private Sub menuItem_loadTemplate_Click(sender As Object, e As EventArgs) Handles menuItem_loadTemplate.Click
+
+
         Dim selectedItem As String = comboBox_templates.Text
 
-        dbConnection.ConnectionString = My.Settings.TemplateConnection
-        dbConnection.Open()
-        dbCmd.Connection = dbConnection
-        dbCmd.CommandText = "select content from Templates where name like '" + selectedItem + "';"
+        If selectedItem IsNot "" AndAlso selectedItem IsNot Nothing Then
 
-        Dim reader As SqlDataReader = dbCmd.ExecuteReader
-        reader.Read()
+            dbConnection.ConnectionString = My.Settings.TemplateConnection
+            dbConnection.Open()
+            dbCmd.Connection = dbConnection
+            dbCmd.CommandText = "select content from Templates where name like '" + selectedItem + "';"
 
-        TextBox1.Text = reader.GetString(0)
+            Dim reader As SqlDataReader = dbCmd.ExecuteReader
+            reader.Read()
 
-        dbConnection.Close()
+            TextBox1.Text = reader.GetString(0)
+
+            dbConnection.Close()
+
+        End If
     End Sub
 
     Public Function deleteSelectedTemplate()

@@ -1,0 +1,1 @@
+Both files need to be in the same directory for the program to work correctlym, otherwise some errors will likely occur.
