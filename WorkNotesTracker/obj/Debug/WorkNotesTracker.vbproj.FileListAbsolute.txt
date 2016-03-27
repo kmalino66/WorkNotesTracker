@@ -1,0 +1,11 @@
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\WorkNotesTracker.exe.config
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\WorkNotesTracker.exe
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\WorkNotesTracker.pdb
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Debug\WorkNotesTracker.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.vbprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.Form1.resources
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.Resources.resources
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.vbproj.GenerateResource.Cache
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.exe
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Debug\WorkNotesTracker.pdb
