@@ -67,42 +67,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="301056">
-      <assemblyIdentity name="System.Data.SQLite" version="1.0.101.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JCbV8ZUYUe4N44/51vCOHDf+GpK8k2Pd03OEHC3lpYo=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.EF6.dll" size="186368">
-      <assemblyIdentity name="System.Data.SQLite.EF6" version="1.0.101.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ed6oz8q7WTKKwirlBpuSz9BKOHWPsJace6RHCwSApcg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="186368">
-      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.101.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yEVV3l+GZLiWXta+IKHGbucli6uGLtoKLUnH/zJUxdY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SqlServerCe.dll" size="470240">
       <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -115,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkNotesTracker.exe" size="259584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkNotesTracker.exe" size="238592">
       <assemblyIdentity name="WorkNotesTracker" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ch3XyKkFmfc/qXDM4q8puh7xTQvfNsesQveaqySa2qs=</dsig:DigestValue>
+        <dsig:DigestValue>0nne2jYsM6unTk0O+QRrgm52vlUEPcvclGzQCquUTNk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -135,31 +99,22 @@
       <dsig:DigestValue>qu1VrKV4YSlfrWPPxXFO1y1tvZnJ1SPu64Czfx1HAKw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="TemplateFile.mdf" size="3342336" writeableType="applicationData">
+  <file name="FilamentInformation.sdf" size="65536" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>z4+Kd/7Q+JBEp1udw8/Q6gWlYh5eZRMWoODXNb3Dqls=</dsig:DigestValue>
+      <dsig:DigestValue>5LP8xTiL4ebhREkdWf6a29czEojUkx/NQmzjixairLQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="TemplateFile_log.ldf" size="851968" writeableType="applicationData">
+  <file name="WorkNotesTracker.exe.config" size="2181">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nLUBfE24lBjqdU9Ewas/kbvp5YOzT1/vGEAM8DA4zI8=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="WorkNotesTracker.exe.config" size="2356">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QlCmOBHBKGWgbdBhXybLsTJ/G0yDJYvV1kK7o0CBP1Q=</dsig:DigestValue>
+      <dsig:DigestValue>HL7GvbkH1adSDPJmg6JioPfRXr8Y4gdnmOJpkp4kxPY=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

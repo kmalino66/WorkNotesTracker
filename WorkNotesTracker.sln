@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WorkNotesTracker", "WorkNotesTracker\WorkNotesTracker.vbproj", "{397C8DE5-D64C-4D27-8566-68AC8B4DCFDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AB2B08F-9009-4642-8804-20E222D43933}"
-	ProjectSection(SolutionItems) = preProject
-		Ideas.txt = Ideas.txt
-	EndProjectSection
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Work Notes", "Setup1\Setup1.vdproj", "{AA7C8B03-DD9E-4197-AF08-709162860E2B}"
 EndProject
