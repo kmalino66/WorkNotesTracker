@@ -1,11 +1,13 @@
 ﻿Imports System.ComponentModel
 Imports System.Data.SqlClient
+Imports System.Data.SqlServerCe
 Imports System.IO
+
 
 Public Class Form1
 
-    Public dbConnection As New SqlConnection
-    Public dbCmd As New SqlCommand
+    Public dbConnection As New SqlCeConnection
+    Public dbCmd As New SqlCeCommand
 
     Private Sub button_clear_Click(sender As Object, e As EventArgs) Handles button_clear.Click
         TextBox1.Text = "~"
@@ -35,6 +37,7 @@ Public Class Form1
         Dim content As String = TextBox1.Text
 
         dbConnection.ConnectionString = My.Settings.TemplateConnection
+
         dbConnection.Open()
         dbCmd.Connection = dbConnection
         dbCmd.CommandText = "insert into Templates(name, content) values ('" &
@@ -65,11 +68,12 @@ Public Class Form1
         If selectedItem IsNot "" AndAlso selectedItem IsNot Nothing Then
 
             dbConnection.ConnectionString = My.Settings.TemplateConnection
+
             dbConnection.Open()
             dbCmd.Connection = dbConnection
             dbCmd.CommandText = "select content from Templates where name like '" + selectedItem + "';"
 
-            Dim reader As SqlDataReader = dbCmd.ExecuteReader
+            Dim reader As SqlCeDataReader = dbCmd.ExecuteReader
             reader.Read()
 
             TextBox1.Text = reader.GetString(0)
@@ -98,37 +102,36 @@ Public Class Form1
 
     Public Sub populateComboBox()
 
+
+
+
+
         'Get Template names, and add them to the combo box.
         dbConnection.ConnectionString = My.Settings.TemplateConnection
 
-        Try
             dbConnection.Open()
 
-        Catch ex As Exception
+            dbCmd.Connection = dbConnection
+            dbCmd.CommandType = CommandType.Text
 
-        End Try
+            'This code is magical, because it is in SQL
+            dbCmd.CommandText = "select name from Templates;"
 
-        dbCmd.Connection = dbConnection
-        dbCmd.CommandType = CommandType.Text
-
-        'This code is magical, because it is in SQL
-        dbCmd.CommandText = "select name from Templates;"
-
-        Dim reader As SqlDataReader = dbCmd.ExecuteReader
+        Dim reader As SqlCeDataReader = dbCmd.ExecuteReader
 
         While reader.Read
-            Try
+                Try
 
-                comboBox_templates.Items.Add(reader.GetString(0))
+                    comboBox_templates.Items.Add(reader.GetString(0))
 
-            Catch ex As Exception
+                Catch ex As Exception
 
-            End Try
-        End While
+                End Try
+            End While
 
-        'Close the open stuffs
-        reader.Close()
-        dbConnection.Close()
+            'Close the open stuffs
+            reader.Close()
+            dbConnection.Close()
 
     End Sub
 

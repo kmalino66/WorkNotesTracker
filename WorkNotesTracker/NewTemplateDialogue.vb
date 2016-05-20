@@ -1,4 +1,6 @@
-﻿Public Class NewTemplateDialogue
+﻿'Kyle Malinowski
+'Created 3/26/2016
+Public Class NewTemplateDialogue
 
     Private Sub button_ok_Click(sender As Object, e As EventArgs) Handles button_ok.Click
         Dim name As String = textBox_templateName.Text

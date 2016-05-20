@@ -57,11 +57,32 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Templates.mdf"& _ 
-            ";Integrated Security=True;Connect Timeout=30")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TemplateFile."& _ 
+            "mdf;Integrated Security=True")>  _
+        Public ReadOnly Property hold() As String
+            Get
+                Return CType(Me("hold"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\Filament"& _ 
+            "Information.sdf;")>  _
         Public ReadOnly Property TemplateConnection() As String
             Get
                 Return CType(Me("TemplateConnection"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\FilamentInformation.db;")>  _
+        Public ReadOnly Property Setting() As String
+            Get
+                Return CType(Me("Setting"),String)
             End Get
         End Property
     End Class
