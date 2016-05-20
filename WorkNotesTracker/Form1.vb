@@ -92,8 +92,11 @@ Public Class Form1
         dbCmd.CommandText = "delete from Templates where name like '" + selectedItem + "';"
         dbCmd.ExecuteNonQuery()
 
+
+
         dbConnection.Close()
 
+        comboBox_templates.Text = ""
         comboBox_templates.Items.Clear()
         populateComboBox()
 
