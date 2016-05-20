@@ -68,7 +68,7 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\FilamentInformation.sdf;")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\WorkNotes\FilamentInformation.sdf;")>  _
         Public ReadOnly Property TemplateConnection() As String
             Get
                 Return CType(Me("TemplateConnection"),String)

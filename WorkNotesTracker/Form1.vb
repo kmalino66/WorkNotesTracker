@@ -20,6 +20,9 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+        AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData))
+
         TextBox1.Text = "~"
         TextBox1.SelectionStart = TextBox1.Text.Length + 1
 
