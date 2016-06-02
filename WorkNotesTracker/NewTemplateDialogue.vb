@@ -17,8 +17,6 @@ Public Class NewTemplateDialogue
         Me.Close()
     End Sub
 
-
-
     Private Sub textBox_templateName_KeyUp(sender As Object, e As KeyEventArgs) Handles textBox_templateName.KeyUp
         If e.KeyCode = 13 Then
             button_ok_Click(sender, Nothing)

@@ -1,16 +1,11 @@
-﻿Imports System.ComponentModel
-Imports System.Data.SqlClient
-Imports System.Data.SqlServerCe
-Imports System.IO
-
+﻿Imports System.Data.SQLite
 
 Public Class Form1
 
-    Public dbConnection As New SqlCeConnection
-    Public dbCmd As New SqlCeCommand
+    Public dbConnection As New SQLiteConnection
+    Public dbCmd As New SqliteCommand
 
     Private Sub button_clear_Click(sender As Object, e As EventArgs) Handles button_clear.Click
-        TextBox1.Text = "~"
         TextBox1.SelectionStart = TextBox1.Text.Length + 1
         TextBox1.Focus()
     End Sub
@@ -21,19 +16,13 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
 
+
         AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData))
 
-        TextBox1.Text = "~"
         TextBox1.SelectionStart = TextBox1.Text.Length + 1
 
         populateComboBox()
 
-    End Sub
-
-    Private Sub TextBox1_KeyUp(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyUp
-        If e.KeyCode = 13 Then
-            My.Computer.Keyboard.SendKeys("{~}")
-        End If
     End Sub
 
     Public Function newTemplateHandler(ByVal name As String)
@@ -65,7 +54,6 @@ Public Class Form1
 
     Private Sub menuItem_loadTemplate_Click(sender As Object, e As EventArgs) Handles menuItem_loadTemplate.Click
 
-
         Dim selectedItem As String = comboBox_templates.Text
 
         If selectedItem IsNot "" AndAlso selectedItem IsNot Nothing Then
@@ -76,7 +64,7 @@ Public Class Form1
             dbCmd.Connection = dbConnection
             dbCmd.CommandText = "select content from Templates where name like '" + selectedItem + "';"
 
-            Dim reader As SqlCeDataReader = dbCmd.ExecuteReader
+            Dim reader As SQLiteDataReader = dbCmd.ExecuteReader
             reader.Read()
 
             TextBox1.Text = reader.GetString(0)
@@ -95,8 +83,6 @@ Public Class Form1
         dbCmd.CommandText = "delete from Templates where name like '" + selectedItem + "';"
         dbCmd.ExecuteNonQuery()
 
-
-
         dbConnection.Close()
 
         comboBox_templates.Text = ""
@@ -107,15 +93,12 @@ Public Class Form1
     End Function
 
     Public Sub populateComboBox()
-
-
-
-
-
-        'Get Template names, and add them to the combo box.
-        dbConnection.ConnectionString = My.Settings.TemplateConnection
+        Try
+            'Get Template names, and add them to the combo box.
+            dbConnection.ConnectionString = My.Settings.TemplateConnection
 
             dbConnection.Open()
+
 
             dbCmd.Connection = dbConnection
             dbCmd.CommandType = CommandType.Text
@@ -123,21 +106,25 @@ Public Class Form1
             'This code is magical, because it is in SQL
             dbCmd.CommandText = "select name from Templates;"
 
-        Dim reader As SqlCeDataReader = dbCmd.ExecuteReader
+            Dim reader As SQLiteDataReader = dbCmd.ExecuteReader
 
-        While reader.Read
+            While reader.Read()
                 Try
 
-                    comboBox_templates.Items.Add(reader.GetString(0))
+                    comboBox_templates.Items.Add(reader("name"))
 
                 Catch ex As Exception
 
                 End Try
             End While
 
-            'Close the open stuffs
+            'Close the open stuffs 
             reader.Close()
             dbConnection.Close()
+        Catch ex As Exception
+
+
+        End Try
 
     End Sub
 

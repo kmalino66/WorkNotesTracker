@@ -47,7 +47,6 @@ Partial Class Form1
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox1.Size = New System.Drawing.Size(868, 430)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "~"
         '
         'button_clear
         '

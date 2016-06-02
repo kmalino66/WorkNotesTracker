@@ -4,17 +4,17 @@
   <description asmv2:publisher="Trizmo" asmv2:product="Wrok Notes" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="WorkNotesTracker.exe.manifest" size="7535">
+    <dependentAssembly dependencyType="install" codebase="WorkNotesTracker.exe.manifest" size="8927">
       <assemblyIdentity name="WorkNotesTracker.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5NsR11LOvYWhHx0/7/I5l+8waY6xSL1+CZv6cgLsuDE=</dsig:DigestValue>
+        <dsig:DigestValue>gkQkUwToJD1sssRqIrXdzCES6sGwiDo6aHD3B7/ahEA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

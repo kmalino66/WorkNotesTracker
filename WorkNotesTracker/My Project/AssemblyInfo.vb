@@ -1,4 +1,4 @@
-﻿Imports System
+﻿Imports System.Resources
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -10,10 +10,10 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("WorkNotesTracker")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("TrizmoDev")>
 <Assembly: AssemblyProduct("WorkNotesTracker")>
 <Assembly: AssemblyCopyright("Copyright ©  2016")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTrademark("HAHA")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2.0.0")>
-<Assembly: AssemblyFileVersion("1.2.0.0")>
+<Assembly: AssemblyVersion("1.3.0.0")>
+<Assembly: AssemblyFileVersion("1.3.0.0")>
+<Assembly: NeutralResourcesLanguage("")>
