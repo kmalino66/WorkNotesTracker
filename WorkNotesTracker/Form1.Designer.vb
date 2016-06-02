@@ -31,6 +31,7 @@ Partial Class Form1
         Me.menuItem_loadTemplate = New System.Windows.Forms.ToolStripMenuItem()
         Me.menuItem_delete = New System.Windows.Forms.ToolStripMenuItem()
         Me.stripMenu_newTemplate = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -46,7 +47,6 @@ Partial Class Form1
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox1.Size = New System.Drawing.Size(868, 430)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "~"
         '
         'button_clear
         '
@@ -107,11 +107,21 @@ Partial Class Form1
         Me.stripMenu_newTemplate.Size = New System.Drawing.Size(122, 23)
         Me.stripMenu_newTemplate.Text = "Save New Template"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(13, 473)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(126, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Made by Kyle Malinowski"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(892, 498)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.button_copy)
         Me.Controls.Add(Me.button_clear)
         Me.Controls.Add(Me.TextBox1)
@@ -135,4 +145,5 @@ Partial Class Form1
     Friend WithEvents stripMenu_newTemplate As ToolStripMenuItem
     Friend WithEvents menuItem_loadTemplate As ToolStripMenuItem
     Friend WithEvents menuItem_delete As ToolStripMenuItem
+    Friend WithEvents Label1 As Label
 End Class

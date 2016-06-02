@@ -1,4 +1,6 @@
-﻿Public Class DeleteConfirmDialogue
+﻿'Kyle Malinowski
+'Created 3/26/2016
+Public Class DeleteConfirmDialogue
     Private Sub button_cancel_Click(sender As Object, e As EventArgs) Handles button_cancel.Click
         Me.Close()
     End Sub

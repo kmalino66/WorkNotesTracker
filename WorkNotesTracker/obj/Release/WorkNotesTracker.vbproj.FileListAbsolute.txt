@@ -1,15 +1,52 @@
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe.config
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\Templates.mdf
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\Templates_log.ldf
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.pdb
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.xml
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbprojResolveAssemblyReference.cache
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe.config
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.exe
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.xml
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.pdb
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbprojResolveAssemblyReference.cache
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.DeleteConfirmDialogue.resources
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.Form1.resources
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.Resources.resources
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.NewTemplateDialogue.resources
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbproj.GenerateResource.Cache
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\TemplateFile.mdf
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\TemplateFile_log.ldf
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe.manifest
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.application
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.pdb
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.xml
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.exe.manifest
+C:\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.application
+C:\Yeah\Bin\FilamentInformation.sdf
+C:\Yeah\Bin\WorkNotesTracker.exe.config
+C:\Yeah\Bin\WorkNotesTracker.exe.manifest
+C:\Yeah\Bin\WorkNotesTracker.application
+C:\Yeah\Bin\WorkNotesTracker.exe
+C:\Yeah\Bin\WorkNotesTracker.pdb
+C:\Yeah\Bin\WorkNotesTracker.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.DeleteConfirmDialogue.resources
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.Form1.resources
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.Resources.resources
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.NewTemplateDialogue.resources
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbproj.GenerateResource.Cache
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe.config
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\FilamentInformation.sdf
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe.manifest
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.application
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.exe
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.pdb
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\WorkNotesTracker.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.exe.manifest
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.application
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.exe
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.pdb
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.dll
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.SqlServer.dll
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.dll
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.EF6.dll
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.Linq.dll
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.SqlServer.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.xml
