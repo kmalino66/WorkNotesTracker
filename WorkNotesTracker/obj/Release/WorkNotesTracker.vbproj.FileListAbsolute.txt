@@ -41,7 +41,6 @@ F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\ob
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.exe
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.pdb
-F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbprojResolveAssemblyReference.cache
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.dll
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.SqlServer.dll
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.dll

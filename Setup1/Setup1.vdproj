@@ -81,7 +81,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6AE179AA297D48BBA7992D483193E63F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_ADD8AA762D7149579142306519DBBA9A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CE37116C0485409F828904790468669B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -423,6 +435,46 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6AE179AA297D48BBA7992D483193E63F"
+            {
+            "SourcePath" = "8:..\\INTEROP\\x86\\SQLite.Interop.dll"
+            "TargetName" = "8:SQLite.Interop.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_DAB12291FDB04E28921C907A90A51093"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE37116C0485409F828904790468669B"
+            {
+            "SourcePath" = "8:C:\\Program Files (x86)\\System.Data.SQLite\\2015\\bin\\SQLite.Interop.dll"
+            "TargetName" = "8:SQLite.Interop.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F935E77AB3224065AB11CBC14DF75C0A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FE0B84ED85495EC0591073EB5AA9DE51"
             {
             "AssemblyRegister" = "3:1"
@@ -481,6 +533,28 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DAB12291FDB04E28921C907A90A51093"
+                    {
+                    "Name" = "8:x86"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_9FCC1DDEE8214820A79679BAA2C0F7DD"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F935E77AB3224065AB11CBC14DF75C0A"
+                    {
+                    "Name" = "8:x64"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_DBA2DCA36E7F4C66A193DCC9246387AC"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_B7C5D2C75EA54D40B43C53A5865E3F79"
@@ -532,15 +606,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Work Notes"
-        "ProductCode" = "8:{E2CD6080-DEC1-4E7E-B9BB-0131844DDAA8}"
-        "PackageCode" = "8:{63A16C8B-611A-4B31-9EAA-9483B3CA9C67}"
+        "ProductCode" = "8:{F421F7AF-296F-45C1-B04D-2C38B6479459}"
+        "PackageCode" = "8:{BBF22786-9CB5-4EB2-8FC2-A067B04CEF29}"
         "UpgradeCode" = "8:{96DE1DFC-94AB-476C-850A-FE0CA2A6E20D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.2.1"
+        "ProductVersion" = "8:1.3.0"
         "Manufacturer" = "8:TrizmoDev"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
