@@ -49,3 +49,4 @@ F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bi
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\EntityFramework.SqlServer.xml
 F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\bin\Release\System.Data.SQLite.xml
+F:\Dropbox\Dropbox\Programming\Visual Basic\WorkNotesTracker\WorkNotesTracker\obj\Release\WorkNotesTracker.vbprojResolveAssemblyReference.cache
