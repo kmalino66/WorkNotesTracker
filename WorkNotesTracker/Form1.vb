@@ -6,6 +6,7 @@ Public Class Form1
     Public dbCmd As New SqliteCommand
 
     Private Sub button_clear_Click(sender As Object, e As EventArgs) Handles button_clear.Click
+        TextBox1.Text = ""
         TextBox1.SelectionStart = TextBox1.Text.Length + 1
         TextBox1.Focus()
     End Sub
@@ -32,6 +33,7 @@ Public Class Form1
 
         dbConnection.Open()
         dbCmd.Connection = dbConnection
+        content = content.Replace("'", "''")
         dbCmd.CommandText = "insert into Templates(name, content) values ('" &
             name & "', '" &
             content & "');"
@@ -69,7 +71,10 @@ Public Class Form1
 
             TextBox1.Text = reader.GetString(0)
 
+            reader.Close()
+
             dbConnection.Close()
+
 
         End If
     End Sub
